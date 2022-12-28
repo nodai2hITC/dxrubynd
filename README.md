@@ -21,7 +21,6 @@ end
 ```
 
 1 行目は `require 'dxruby'` でも動くっぽいのですが、オリジナルの DXRuby もインストールされている環境では正常に動かない可能性があるので、`'dxrubynd'` の方を読み込ませたほうが確実です。
-`
 
 リファレンスマニュアルは
 http://mirichi.github.io/dxruby-doc/index.html
