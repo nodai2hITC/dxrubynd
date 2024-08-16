@@ -28,4 +28,6 @@ http://mirichi.github.io/dxruby-doc/index.html
 
 ## 既知の問題点
 
-<s>現状、64 bit 環境では正常に動作しません。オリジナル版でも [64 bit 版では Sound.new でエラーになる](https://github.com/mirichi/dxruby/issues/4)ようですが、こちらに至っては `require` しただけで `failed create window - CreateWindow (DXRuby::DXRubyError)` となってしまいます。解決方法をご存じの方はいらっしゃらないでしょうか…</s> → [DXRubyがRuby3.2.4(win64)環境で動かなかった件](https://sunnyday.hatenablog.jp/entry/2024/08/13/121029) の方法で解決しました。
+<s>現状、64 bit 環境では正常に動作しません。`require` しただけで `failed create window - CreateWindow (DXRuby::DXRubyError)` となってしまいます。解決方法をご存じの方はいらっしゃらないでしょうか…</s> → [DXRubyがRuby3.2.4(win64)環境で動かなかった件](https://sunnyday.hatenablog.jp/entry/2024/08/13/121029) の方法で解決しました。
+
+オリジナル版同様、[64 bit 版では Sound.new でエラーになる](https://github.com/mirichi/dxruby/issues/4) 問題は解決していません。
