@@ -8,3 +8,4 @@
 /tmp/
 Gemfile.lock
 /lib/dxrubynd/dxruby.so
+/ext/dxruby/Makefile

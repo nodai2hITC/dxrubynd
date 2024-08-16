@@ -17,13 +17,13 @@ SYSTEM_LIBRARIES = [
 ]
 
 SYSTEM_LIBRARIES.each do |libs|
-  [*libs].any? {|lib| have_library(lib) }
+  [*libs].any? { |lib| have_library(lib) }
 end
 
-#ヘッダファイル足りてませんが調べるの面倒で(^-^;
+#繝倥ャ繝繝輔ぃ繧､繝ｫ雜ｳ繧翫※縺ｾ縺帙ｓ縺瑚ｪｿ縺ｹ繧九�ｮ髱｢蛟偵〒(^-^;
 
 have_header("d3dx9.h")
 have_header("dinput.h")
-have_func("rb_enc_str_new") 
+have_func("rb_enc_str_new")
 
 create_makefile("dxruby")

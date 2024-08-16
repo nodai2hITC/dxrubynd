@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = ":-)"
   spec.description = "2D game library for Windows(DirectX9)"
-  spec.homepage = "http://dxruby.osdn.jp/"
+  spec.homepage = "https://mirichi.github.io/dxruby-doc/index.html"
   spec.license = "zlib/libpng"
   spec.required_ruby_version = ">= 2.6.0"
 
